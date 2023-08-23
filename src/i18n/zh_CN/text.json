@@ -1,0 +1,9 @@
+{
+	"test": "测试",
+	"login": "登录",
+	"back": "返回",
+	"username": "用户名",
+	"password": "密码",
+	"toggle": "切换{0}",
+	"language": "语言"
+}

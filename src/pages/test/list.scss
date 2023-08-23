@@ -1,0 +1,17 @@
+.pages-test-list {
+    text-align: center;
+    .avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid #ebebeb;
+    }
+    .list {
+        padding: 12px;
+        text-align: left;
+        word-break: break-all;
+        li {
+            margin-top: 10px;
+        }
+    }
+}

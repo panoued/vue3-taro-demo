@@ -1,0 +1,26 @@
+{
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.defaultFormatter.html": "prettyhtml",
+    "vetur.format.defaultFormatterOptions": {
+        "prettyhtml": {
+            "printWidth": 200
+        },
+        "js-beautify-html": {
+            "wrap_line_length": 160,
+            "wrap_attributes": "auto",
+            "end_with_newline": false
+        }
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "extensions.ignoreRecommendations": true,
+    "[css]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "git.mergeEditor": false,
+    "git.enabled": false,
+    "editor.accessibilitySupport": "off"
+}

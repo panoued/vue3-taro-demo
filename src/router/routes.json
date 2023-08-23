@@ -1,0 +1,26 @@
+[
+	{
+		"path": "/",
+		"name": "IndexIndex",
+		"component": "index/index.vue",
+		"meta": {
+			"optionName": "IndexView"
+		}
+	},
+	{
+		"path": "/test/list",
+		"name": "TestList",
+		"component": "test/list.vue",
+		"meta": {
+			"optionName": "TestView"
+		}
+	},
+	{
+		"path": "/test/:id?",
+		"name": "TestId",
+		"component": "test/_id.vue",
+		"meta": {
+			"optionName": "TestIdView"
+		}
+	}
+]

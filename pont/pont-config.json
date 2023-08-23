@@ -1,0 +1,6 @@
+{
+    "originUrl": "http://192.168.1.214:9080/v2/api-docs",
+    "outDir": "../src/api",
+    "templatePath": "./pontTemplate",
+    "transformPath": "./transformTemplate"
+}

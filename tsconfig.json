@@ -1,0 +1,52 @@
+{
+    "compilerOptions": {
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "outDir": "lib",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": false,
+        "rootDir": ".",
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "target": "esnext",
+        "module": "esnext",
+        "strict": false,
+        "noImplicitThis": false,
+        "noImplicitAny": false,
+        "jsx": "preserve",
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "skipLibCheck": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
+    },
+    "lib": [
+        "esnext",
+        "dom",
+        "dom.iterable",
+        "scripthost"
+    ],
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/*.vue",
+        "./types",
+        "./config"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": false
+}

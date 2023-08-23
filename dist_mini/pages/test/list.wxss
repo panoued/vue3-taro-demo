@@ -1,0 +1,20 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/@tarojs/webpack5-runner/node_modules/css-loader/dist/cjs.js??clonedRuleSet-4.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-4.use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/@tarojs/webpack5-runner/node_modules/sass-loader/dist/cjs.js??clonedRuleSet-4.use[4]!./src/pages/test/list.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.pages-test-list {
+  text-align: center;
+}
+.pages-test-list .avatar {
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+  border: 2rpx solid #ebebeb;
+}
+.pages-test-list .list {
+  padding: 24rpx;
+  text-align: left;
+  word-break: break-all;
+}
+.pages-test-list .list .h5-li {
+  margin-top: 20rpx;
+}

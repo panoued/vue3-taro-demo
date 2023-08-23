@@ -1,0 +1,30 @@
+{
+    "route": {
+        "views": "src/pages",
+        "excludes": [],
+        "custom": [],
+        "output": {
+            "json": "src/router/routes.json",
+            "type": "types/VueRoutes.d.ts",
+            "enum": "src/enums/VueRoutes.ts"
+        },
+        "taro": {
+            "enum": "src/enums/TaroRoutes.ts",
+            "type": "types/TaroRoutes.d.ts"
+        }
+    },
+    "store": {
+        "source": [
+            "src/vuex"
+        ],
+        "target": "src/store/index.ts",
+        "type": "types/VuexState.d.ts"
+    },
+    "lang": {
+        "type": "types/lang.d.ts",
+        "cn": "src/i18n/zh_CN",
+        "tw": "src/i18n/zh_TW",
+        "en": "src/i18n/en_US",
+        "map": "src/i18n/I18nMap.ts"
+    }
+}
