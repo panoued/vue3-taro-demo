@@ -1,5 +1,5 @@
 dist/
-dist_mini/
+dist_mini
 deploy_versions/
 .temp/
 .rn_temp/
